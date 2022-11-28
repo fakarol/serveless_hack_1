@@ -1,0 +1,20 @@
+{
+  "name": "hack-serveless-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "link-module-alias"
+  },
+  "_moduleAliases": {
+    "@output": "./item/output/output.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "link-module-alias": "^1.2.0",
+    "middy": "^0.36.0",
+    "netlify-cli": "^12.2.6"
+  }
+}
